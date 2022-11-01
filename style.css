@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background-image:url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+img.logo{
+    width: 8rem;
+    border-radius: 1rem;
+}
+.navbar{
+    width: 95vw;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+}
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    background-color: rgb(97, 91, 84);
+    height: 2rem;
+    width: 5rem;
+    text-align: center;
+    line-height: 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin: 0 0.5rem;
+}
+ul li:hover{
+    background-color: blueviolet;
+}
+a{
+    text-decoration: none;
+}
+.bttm{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20vh;
+    justify-content: space-around;
+    height: 42vh;
+    align-items: center;
+}
+.right{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;  
+    gap: 1vh;
+}
+.card{
+    height: 20vh;
+    width: 10vw;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: 1s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+button{
+    height: 2.5rem;
+    width: 8rem;
+    background-color: rgb(94, 84, 84);
+    border-radius: 24px;
+    border: none;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: 1s;
+}
+button:hover{
+    transform: scale(0.95);
+    background-color: bisque;
+    color: black;
+}
